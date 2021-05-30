@@ -52,6 +52,8 @@ function empty() {
   return `Your basket is now empty.`;
 }
 
+//This one seems too simple... hmmmmmmm
+
 console.log(empty());
 console.log(basket);
 
