@@ -25,7 +25,7 @@ function listItemsForOfLoop() {
   for (item of basket) {
       console.log(item);
     }
-    return `This is the end of your list.`
+    return `This is the end of your list.`;
 }
 //wanted to try a for of loop as well :)
 
@@ -46,3 +46,13 @@ console.log('Adding bananas', addItem('bananas'));
 console.log(`Basket is now ${basket}`);
 console.log(listItems());
 console.log(listItemsForOfLoop());
+
+function empty() {
+  basket = [];
+  return `Your basket is now empty.`;
+}
+
+console.log(empty());
+console.log(basket);
+
+//I ran out of time before this assignment was due but will continue to work on the stretch goals. Should I resubmit with the stretch goals if an assignment has not yet been graded or will that flag it as late even though I already turned it in once?
